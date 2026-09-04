@@ -1,0 +1,35 @@
+[worldserver]
+
+########################################
+# Lunchbox configuration
+########################################
+#
+#    Lunchbox.Enable
+#        Description: Enable the module
+#        Default:     1 - Enabled
+#                     0 - Disabled
+#
+#    Lunchbox.DrinkMultiplier
+#        Description: How much mana players should get from drinking.
+#                     Multiplicative modifier.
+#        Default:     1.0 - Same
+#                     0.5 - Half amount
+#                     2.0 - Double amount
+#
+#    Lunchbox.DrinkMultiplier
+#        Description: How much health is regained from eating food.
+#                     Multiplicative modifier.
+#        Default:     1.0 - Same
+#                     0.5 - Half amount
+#                     2.0 - Double amount
+#
+#    Lunchbox.DebugChatEnabled
+#        Description: Enable to send players chat message with debug info.
+#        Default:     0 - Disabled
+#                     1 - Enabled
+
+Lunchbox.Enable = 1
+Lunchbox.DrinkMultiplier = 1.0
+Lunchbox.FoodMultiplier = 1.0
+
+Lunchbox.DebugChatEnabled = 0
