@@ -26,7 +26,7 @@ namespace Acore::Lunchbox
         {
         }
 
-        void OnAfterConfigLoad(const bool reload) override
+        void OnAfterConfigLoad([[maybe_unused]] const bool reload) override
         {
             // Load module settings after world server options are available - also allows for reload config
             ModuleEnabled = sConfigMgr->GetOption<bool>("Lunchbox.Enable", true);
