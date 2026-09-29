@@ -17,7 +17,6 @@ namespace Acore::Lunchbox
     static float FoodMultiplier = 1.0f;
     static bool DebugChatEnabled = false;
 
-
     class LunchboxWorldScript : public WorldScript
     {
     public:
@@ -36,7 +35,6 @@ namespace Acore::Lunchbox
             DebugChatEnabled = sConfigMgr->GetOption<bool>("Lunchbox.DebugChatEnabled", true);
         }
     };
-
 
     class LunchboxUnitScript : public UnitScript
     {
@@ -97,7 +95,6 @@ namespace Acore::Lunchbox
         }
     };
 
-
     class LunchboxPlayerScript : public PlayerScript
     {
     public:
@@ -113,7 +110,6 @@ namespace Acore::Lunchbox
                 ChatHandler(player->GetSession()).SendSysMessage("This server is running the |cff4CFF00Lunchbox|r module.");
         }
     };
-
 
 }
 
